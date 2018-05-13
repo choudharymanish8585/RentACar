@@ -2,10 +2,10 @@
 <h1>RentACar data scripts</h1>
 
 <h2>Classes you can use to create the data</h2>
-<strong>CreateData.apxc</strong>: This file has the code to create the data to be used in your RentACar Application
-<p><strong>DeleteData.apxc</strong>: This file has the code to delete the data created by CreatedData.apxc file</p>
-<p><strong>CreateDataTest.apxc</strong>: TestClass for CreateData class</p>
-<p><strong>DeleteDataTest.apxc</strong>: TestClass for DeleteData class</p>
+<p><strong style="color:blue">CreateData.apxc</strong>: This file has the code to create the data to be used in your RentACar Application</p>
+<p><strong style="color:blue">DeleteData.apxc</strong>: This file has the code to delete the data created by CreatedData.apxc file</p>
+<p><strong style="color:blue">CreateDataTest.apxc</strong>: TestClass for CreateData class</p>
+<p><strong style="color:blue">DeleteDataTest.apxc</strong>: TestClass for DeleteData class</p>
 
 <h3>How to Call CreateData class</h3>
 <strong>Once you have created your "CreateData" class, follow below steps to call the class method to generate data</strong>
