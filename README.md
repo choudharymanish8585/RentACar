@@ -24,5 +24,5 @@
 <li> Type DeleteData.deleteData();</li>
 </ul>
 
-
-Also download this <a href="cars.zip">static resource file</a> and upload in your org. This static resource contains images of the cars.
+<br/>
+<h2>Also download this <a href="cars.zip">static resource file</a> and upload in your org. This static resource contains images of the cars.</h2>
