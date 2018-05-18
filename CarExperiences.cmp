@@ -31,10 +31,10 @@ Note: This is only SLDS code, not complete CarExperiences component
                 </header>
                 <div class="slds-post__content slds-text-longform">
                     <!-- Displaying the title -->
-                    <p class="slds-text-title_caps">{!carExp.Name}</p>
+                    <p class="slds-text-title_caps">#######DISPLAY CAR EXPERIENCE RECORD NAME HERE USING ATTRIBUTES#######</p>
                     <p class="slds-text-body_small">
                         <!-- Displaying experince inside a formattedRichText -->
-                        <lightning:formattedRichText value="{!carExp.Experience__c}" />
+                        <lightning:formattedRichText value="#######DISPLAY CAR EXPERIENCE RECORD EXPERIENCE FIELD HERE USING ATTRIBUTES#######" />
                     </p>
                 </div>
             </article>
