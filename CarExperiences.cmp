@@ -1,0 +1,43 @@
+<!-- This is the SLDS code used in CarExperiences component.
+You still need to make some changes in this code
+like using attribute values.
+Note: This is only SLDS code, not complete CarExperiences component
+-->
+
+
+<div class="slds-feed">
+    <ul class="slds-feed__list">
+        <li class="slds-feed__item">
+            <article class="slds-post">
+                <header class="slds-post__header slds-media">
+                    <div class="slds-media__figure">
+                        <a href="javascript:void(0);" class="slds-avatar slds-avatar_circle slds-avatar_large">
+
+                            <!-- Displaying user photo -->
+                            <img alt="{!carExp.CreatedBy.Name}" src="{!carExp.CreatedBy.SmallPhotoUrl}" title="{!carExp.CreatedBy.Name}" />
+
+                        </a>
+                    </div>
+                    <div class="slds-media__body">
+                        <div class="slds-grid slds-grid_align-spread slds-has-flexi-truncate">
+                            <p>
+                                <!-- Displaying user name and company name -->
+                                <a href="javascript:void(0);" data-userid="{!carExp.CreatedBy.Id}" 
+                                  onclick="{!c.onUserInfoClick}">{!carExp.CreatedBy.Name}</a> — {!carExp.CreatedBy.CompanyName}</p>
+                        </div>
+                        <p class="slds-text-body_small">
+                            <ui:outputDateTime value="{!carExp.CreatedDate}" /></p>
+                    </div>
+                </header>
+                <div class="slds-post__content slds-text-longform">
+                    <!-- Displaying the title -->
+                    <p class="slds-text-title_caps">{!carExp.Name}</p>
+                    <p class="slds-text-body_small">
+                        <!-- Displaying experince inside a formattedRichText -->
+                        <lightning:formattedRichText value="{!carExp.Experience__c}" />
+                    </p>
+                </div>
+            </article>
+        </li>
+    </ul>
+</div>
